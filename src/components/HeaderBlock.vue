@@ -5,7 +5,7 @@
 <template>
 <div class="header">
   <div class="header_burger">
-    <button><img src="../assets/header/burger.png"></button>
+    <button><img src="../assets/header/burger.png" alt="burger"></button>
   </div>
   <div class="header_logo">
       <RouterLink class="header_logo_logo" to="/"><img src="../assets/header/logo.svg" alt="logo"> </RouterLink>
