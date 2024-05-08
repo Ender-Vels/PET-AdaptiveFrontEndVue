@@ -4,6 +4,9 @@
 
 <template>
 <div class="header">
+  <div class="header_burger">
+    <button><img src="../assets/header/burger.png"></button>
+  </div>
   <div class="header_logo">
       <RouterLink class="header_logo_logo" to="/"><img src="../assets/header/logo.svg" alt="logo"> </RouterLink>
       <RouterLink class="header_logo_title" to="/"><h2>Travlog</h2></RouterLink>
@@ -34,4 +37,5 @@
 
 <style>
 @import "../style/header/header.css";
+@import "../style/header/adptiveHeader.css";
 </style>

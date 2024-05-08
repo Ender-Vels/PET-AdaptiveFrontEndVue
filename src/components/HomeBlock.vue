@@ -87,7 +87,6 @@ export default {
         </div>
       </div>
     </div>
-
     <div class="homePages">
       <div class="homePages_map">
         <img src="../assets/homeBlock/homePages/map.svg" alt="map">
@@ -118,4 +117,5 @@ export default {
 
 <style>
 @import "../style/homeBlocck/home.css";
+@import "../style/homeBlocck/adaptiveHome.css";
 </style>

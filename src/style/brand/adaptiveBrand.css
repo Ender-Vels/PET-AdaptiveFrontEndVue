@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .brandBlock_list{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        align-items: center;
+        padding: 40px;
+        margin-top: 40px;
+    }
+    .brandBlock_list:first-child{
+        padding-left: 0;
+    }
+    .brandBlock_list:last-child{
+        padding-right: 0;
+    }
+    .brandBlock{
+        max-width: 896px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .brandBlock_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+
+    }
+    .brandBlock_list:first-child{
+        padding-left: 0;
+    }
+    .brandBlock_list:last-child{
+        padding-right: 0;
+    }
+    .brandBlock_list li{
+        display: block;
+    }
+    .brandBlock{
+        max-width: 398px;
+    }
+}

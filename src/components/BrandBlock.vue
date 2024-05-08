@@ -16,4 +16,5 @@
 
 <style>
 @import "../style/brand/brand.css";
+@import "../style/brand/adaptiveBrand.css";
 </style>

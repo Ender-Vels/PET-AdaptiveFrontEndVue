@@ -46,10 +46,10 @@ export default {
 <div class="service">
   <div class="service_title">
     <h3>SERVICES</h3>
-    <h1>Our top value<br> categories for you</h1>
+    <h1>Our top value categories for you</h1>
   </div>
     <div class="service_slider">
-      <Carousel :items-to-show="2.5" :wrap-around="true">
+      <Carousel :items-to-show="3" :wrap-around="true">
         <Slide class="slide" v-for="slide in sliderData" :key="slide.id">
           <div class="carousel__item">
             <div class="carousel__item_img">
@@ -68,9 +68,24 @@ export default {
         </template>
       </Carousel>
     </div>
+
+    <div class="adaptiveService" v-for="slide in sliderData" :key="slide.id">
+        <div class="adaptiveService_slide">
+            <div class="adaptiveService_slide_img">
+              <img :src="slide.img" alt="slide">
+            </div>
+          <div class="adaptiveService_slide_title">
+              <h3>{{slide.title}}</h3>
+          </div>
+          <div class="adaptiveService_slide_description">
+            <h3>{{slide.description}}</h3>
+          </div>
+        </div>
+    </div>
 </div>
 </template>
 
 <style>
 @import "../style/ServiceBlock/ServiceBlock.css";
+@import "../style/ServiceBlock/adptiveSevice.css";
 </style>

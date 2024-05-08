@@ -1,0 +1,84 @@
+@media (max-width: 1024px) {
+
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 896px;
+        margin: 0 auto;
+    }
+    .service_title{
+      text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .service_title h3{
+        color:#F85E9F;
+        letter-spacing: 5px;
+    }
+    .service_title h1{
+        display: block;
+        padding-top: 25px;
+    }
+    .service_title h1{
+        padding-top: 25px;
+    }
+
+    .carousel__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 350px;
+        height: 443px;
+        padding: 10px;
+        border: 1px solid lightgray;
+
+    }
+    .carousel__item_description{
+        padding: 30px;
+
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 397px;
+        margin: 0 auto;
+    }
+
+    .carousel__item{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 350px;
+        height: 443px;
+        padding: 10px;
+        border: 1px solid lightgray;
+
+    }
+    .carousel__item_description{
+        padding: 30px;
+
+    }
+    .adaptiveService{
+        display: flex;
+    }
+    .adaptiveService_slide{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+}
