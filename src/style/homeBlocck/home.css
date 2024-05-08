@@ -1,0 +1,92 @@
+.home{
+    max-width: 1184px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.home_title_explore{
+    display: flex;
+    padding: 15px;
+}
+.home_title_explore h3{
+    margin-right: 15px;
+    color: #F85E9F;
+}
+.home_title_title{
+    font-size: 30px;
+    line-height:70px;
+    margin-top: 30px;
+
+}
+.home_title{
+    max-width: 412px;
+}
+.home_title_title span{
+    color: #F85E9F;
+}
+.home_title_title_two{
+    margin-top: 30px;
+}
+.home_title_title_two p{
+    font-size: 18px;
+    font-style: italic;
+    opacity: 50%;
+}
+.home_title_btn button{
+    background-color: #5D50C6;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 90px;
+    border: none;
+    margin-right: 30px;
+}
+
+.home_title_btn{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.home_title_btn_link{
+    display: flex;
+    align-items: center;
+}
+.home_title_btn_link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.homePages{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 772px;
+    height: 713px;
+}
+.homePages_photo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 90px;
+}
+
+.homePages_photo_in{
+    display: flex;
+    flex-direction: column;
+}
+.homePages_photo img{
+    margin-left: 15px;
+}
+.homePages_map img{
+    margin-bottom: 40px;
+}
+.homePages_photo_in img:last-child{
+    margin-top: 20px;
+}
+.homePages_telegram_icon{
+    position: absolute;
+    left: 40px;
+    top:50%;
+
+}

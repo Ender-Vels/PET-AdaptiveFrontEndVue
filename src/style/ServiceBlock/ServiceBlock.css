@@ -1,0 +1,41 @@
+
+.service{
+    display: flex;
+    align-items: center;
+    max-width: 1184px;
+
+    margin: 0 auto;
+}
+.service_title{
+    display: flex;
+    flex-direction: column;
+    max-width: 444px;
+}
+.service_title h3{
+    color:#F85E9F;
+    letter-spacing: 5px;
+}
+.service_title h1{
+    padding-top: 25px;
+}
+.service_title h1{
+    padding-top: 25px;
+}
+.service_slider{
+
+}
+.carousel__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 350px;
+    height: 443px;
+    padding: 10px;
+    border: 1px solid lightgray;
+
+}
+.carousel__item_description{
+    padding: 30px;
+
+}

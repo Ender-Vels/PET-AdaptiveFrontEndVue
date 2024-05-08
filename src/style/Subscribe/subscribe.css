@@ -1,0 +1,49 @@
+.subscribe{
+    max-width: 1181px;
+    margin: 0 auto;
+}
+
+.subscribe_block{
+    padding: 15px 25px;
+}
+.subscribe_block_title{
+    text-align: center;
+}
+.subscribe_block_title h3{
+    color: #F85E9F;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.subscribe_block_title h1{
+    font-size: 65px;
+}
+.subscribe_block_subscribe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.subscribe_block_subscribe input{
+    padding: 20px;
+    font-size:25px;
+    font-weight: 600;
+    outline: none;
+    width: 757px;
+}
+.subscribe_block_subscribe input::placeholder{
+    background: url(../../assets/subscribe/message.png) no-repeat;
+   padding-left: 45px;
+}
+.subscribe_block_subscribe button{
+    height: 100px;
+    width: 200px;
+    color: white;
+    background: #5D50C6;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    font-size: 20px;
+    border: none;
+}

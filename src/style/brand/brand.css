@@ -1,0 +1,18 @@
+.brandBlock_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+.brandBlock_list:first-child{
+    padding-left: 0;
+}
+.brandBlock_list:last-child{
+    padding-right: 0;
+}
+.brandBlock{
+    max-width: 1184px;
+    margin: 0 auto;
+}

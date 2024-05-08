@@ -1,0 +1,54 @@
+.footer{
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+.footer_about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer_about_content{
+    max-width: 560px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.footer_about_logo{
+    display: flex;
+    align-items: center;
+}
+.footer_about_social{
+    display: flex;
+    margin-top: 25px;
+
+}
+.footer_about_social img{
+    margin: 10px;
+}
+.footer_about_social img:first-child{
+    margin-left: 0px;
+}
+.footer_contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer_contact_company{
+    margin: 40px;
+}
+.footer_contact_company_list{
+    list-style: none;
+
+}
+.footer_contact_company_list li{
+    padding: 10px;
+}
+.footer_contact_company_list li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+
+}
