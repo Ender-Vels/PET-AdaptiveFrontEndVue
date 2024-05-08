@@ -1,7 +1,8 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is my first PET project on VUE.JS. Of course, it is still under development. But now there is a ready-made desktop version.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+In progress:
+1. Animations.
+2. adaptive layout
+3. functional interaction of the visual view with the click of a button, and interaction with the user
