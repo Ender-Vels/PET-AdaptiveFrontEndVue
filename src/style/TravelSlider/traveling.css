@@ -70,3 +70,6 @@ display: flex;
 .carousel__items_descriptions_rating img{
     margin-left: 10px;
 }
+.slides{
+    display: none;
+}

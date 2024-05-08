@@ -87,9 +87,34 @@ export default {
       </template>
     </Carousel>
   </div>
+
+  <div class="slides" v-for="slide in dataSlider">
+
+    <div class="slides_slide">
+      <div class="slides_slide_img">
+        <img :src="slide.img" alt="slide">
+      </div>
+      <div class="slides_slide_content">
+          <div class="slides_slide_content_price">
+            <span> {{slide.price}}</span>
+          </div>
+        <div class="slides_slide_content_name">
+            <p>{{slide.name}}</p>
+        </div>
+        <div class="slides_slide_content_location">
+          <span>{{slide.location}}</span>
+        </div>
+        <div class="slides_slide_content_rating">
+          <span>{{slide.rating}}</span><img :src="slide.starImg" alt="star">
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 </template>
 
 <style>
 @import "../style/TravelSlider/traveling.css";
+@import "../style/TravelSlider/adaptiveTraveling.css";
 </style>
