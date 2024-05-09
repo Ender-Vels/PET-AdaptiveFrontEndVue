@@ -49,4 +49,5 @@
 
 <style>
 @import "../style/TravelPoint.css";
+@import "../style/adaptiveTravelPoint.css";
 </style>
